@@ -1,0 +1,19 @@
+body {
+  /* background-color: lightblue; */
+  background-image: url("pictures/image.jpg");
+}
+
+#pheader {
+    font-size: 40px;
+    /* background-color: rgb(75, 160, 139); */
+    background-color: rgba(75, 160, 139, 0.8);
+    /* background-color: green; */
+    color: yellow;
+}
+
+.ptag {
+    border: 1px solid green;
+    width: 250px;
+    height: 100px;
+}
+
