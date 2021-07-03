@@ -1,0 +1,58 @@
+/* relative css */
+.parent {
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+
+#two {
+    background: green;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+/* absolute css */
+.parentTwo {
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+#childTwo {
+    background: blue;
+    position: absolute;
+    /* top: 40px; */
+    left: 40px;
+}
+
+h1 {
+  /* background-color: black; */
+  /* color: white; */
+  /* text-align: right; */
+  text-transform: capitalize;
+    letter-spacing: 13px;
+    line-height: 10;
+    text-shadow: 2px 2px rgb(170, 96, 96);
+
+}
+
+/* h1.uppercase {
+    
+} */
+
+#example2 {
+    border: 1px solid #888888;
+  box-shadow: 5px 10px #888888;
+  width: 500px;
+    height: 100px;
+    margin-bottom: 300px;
+    background: rgb(91,9,23);
+    color: #fff;
+background: linear-gradient(90deg, rgba(91,9,23,1) 0%, rgba(154,19,19,0.06547619047619047) 98%);
+}
